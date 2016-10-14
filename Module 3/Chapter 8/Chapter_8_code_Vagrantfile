@@ -1,0 +1,29 @@
+Vagrant.configure("2") do |config|
+	config.vm.box = "sparkpy/sparkbox_test_1"
+	config.vm.hostname = "sparkbox"
+	config.ssh.insert_key = false
+
+	# Hadoop ResourceManager
+	config.vm.network :forwarded_port, guest: 8088, host: 8088, auto_correct: true
+
+	# Hadoop NameNode
+	config.vm.network :forwarded_port, guest: 50070, host: 50070, auto_correct: true
+
+	# Hadoop DataNode
+	config.vm.network :forwarded_port, guest: 50075, host: 50075, auto_correct: true
+
+	# Ipython notebooks (yarn and standalone)
+	config.vm.network :forwarded_port, guest: 8888, host: 8888, auto_correct: true
+
+
+	config.vm.provider "virtualbox" do |v|
+	    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+		v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
+		v.customize ["modifyvm", :id, "--nictype1", "virtio"]
+
+	    v.name = "sparkbox_test"
+	    v.memory = "4096"
+	    v.cpus = "2"
+	end
+  
+end
