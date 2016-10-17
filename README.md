@@ -9,7 +9,7 @@ Code repository for Python: Real World Machine Learning
 * Increase predictive accuracy with deep learning and scalable data-handling techniques
 * Work with modern state-of-the-art large-scale machine learning techniques
 
-### Software and Hardware:
+### Software and Hardware (Module 1):
 | Chapter number | Software required (with version) | Download links to the software | Hardware specifications | OS required |
 | -------------- | -------------- |-------------- |-------------- |-------------- |
 | All | Scikit-learn 0.17.0, Numpy 1.11, Matplotlib 1.5.1, Scipy 0.17.0 | http://scikit-learn.org/stable/install.html, http://www.scipy.org/scipylib/download.html, http://matplotlib.org/downloads.html, http://www.scipy.org/install.html | 4 GB of RAM and 16GB of disk | Linux, Mac OS X, Windows |
@@ -19,6 +19,8 @@ Code repository for Python: Real World Machine Learning
 | 9, 10 | OpenCV 3.0.0 | http://opencv.org/downloads.html | 4 GB of RAM and 16GB of disk | Linux, Mac OS X, Windows |
 | 11 | NeuroLab 0.3.5 | https://pythonhosted.org/neurolab/install.html | 4 GB of RAM and 16GB of disk | Linux, Mac OS X, Windows |
 
-
+### Software and Hardware (Module 2):
+| Chapter number | Software required (with version) |
+| -------------- | -------------------------------- |
 ###Note
 Modules 1, 2 and 3 have code arranged by chapter (for the chapters that have code). [Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
