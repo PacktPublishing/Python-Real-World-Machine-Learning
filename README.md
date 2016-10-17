@@ -22,5 +22,13 @@ Code repository for Python: Real World Machine Learning
 ### Software and Hardware (Module 2):
 | Chapter number | Software required (with version) |
 | -------------- | -------------------------------- |
+| 1 | Python 3 (3.4 recommended), sklearn (numpy, scipy), matplotlib |
+| 2-4 | Theano |
+| 5 | Semisup-learn |
+| 6 | Natural Language Toolkit (NLTK), BeautifulSoup |
+| 7 | Twitter API account |
+| 8 | XGBoost |
+| 9 | Lasagne, TensorFlow |
+
 ###Note
 Modules 1, 2 and 3 have code arranged by chapter (for the chapters that have code). [Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
