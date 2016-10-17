@@ -1,4 +1,4 @@
-# Python Real World Machine Learning
+# Python: Real World Machine Learning
 Code repository for Python: Real World Machine Learning
 
 ##What You Will Learn:
