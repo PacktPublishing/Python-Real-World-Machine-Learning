@@ -15,6 +15,9 @@ Code repository for Python: Real World Machine Learning
 | All | Scikit-learn 0.17.0, Numpy 1.11, Matplotlib 1.5.1, Scipy 0.17.0 | http://scikit-learn.org/stable/install.html, http://www.scipy.org/scipylib/download.html, http://matplotlib.org/downloads.html, http://www.scipy.org/install.html | 4 GB of RAM and 16GB of disk | Linux, Mac OS X, Windows |
 | 6 | NLTK 3.0, Gensim 0.12.4 | http://www.nltk.org/install.html, https://radimrehurek.com/gensim/install.html | 4 GB of RAM and 16GB of disk | Linux, Mac OS X, Windows |
 | 7, 8 | hmmlearn 0.2.1, python_speech_features | http://hmmlearn.readthedocs.org/en/latest/, http://pythonspeechfeatures.readthedocs.org/en/latest/ | 4 GB of RAM and 16GB of disk | Linux, Mac OS X, Windows |
+| 8 | Pandas 0.18.0, Pystruct 0.2.4 | http://pandas.pydata.org/getpandas.html, https://pystruct.github.io/installation.html | 4 GB of RAM and 16GB of disk | Linux, Mac OS X, Windows |
+| 9, 10 | OpenCV 3.0.0 | http://opencv.org/downloads.html | 4 GB of RAM and 16GB of disk | Linux, Mac OS X, Windows |
+| 11 | NeuroLab 0.3.5 | https://pythonhosted.org/neurolab/install.html | 4 GB of RAM and 16GB of disk | Linux, Mac OS X, Windows |
 
 
 ###Note
