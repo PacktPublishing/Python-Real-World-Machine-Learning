@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Synthesize tone
 def synthesizer(freq, duration, amp=1.0, sampling_freq=44100):
     # Build the time axis
-    t = np.linspace(0, duration, duration * sampling_freq)
+    t = np.linspace(0, duration, int(duration * sampling_freq))
 
     # Construct the audio signal
     audio = amp * np.sin(2 * np.pi * freq * t)
